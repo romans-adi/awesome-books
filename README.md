@@ -40,13 +40,13 @@ Simple mid-fidelity single-page application (SPA) that allows user to add and/or
 
 ### Key Features <a name="key-features"></a>
 
-  <ul>
+<ul>
   <li>Mid-fidelity</li>
   <li>ES6 new features and syntax</li>
-<li>Based on JavaScript classes and methods</li>
-<li>Data is preserved in the browser's memory by using local storage</li>
-<li>Modular JavaScript</li>
-  </ul>
+  <li>Based on JavaScript classes and methods</li>
+  <li>Data is preserved in the browser's memory by using local storage</li>
+  <li>Modular JavaScript</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
