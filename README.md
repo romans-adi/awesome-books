@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 <a name="about-project">Hello Microverse</a>
+# 📖 <a name="about-project">Awesome Books: ES6</a>
 
 Simple mid-fidelity single-page application (SPA) that allows user to add and/or remove books to/from list. Only one class with defined methods used. All data stored in local storage.
 
