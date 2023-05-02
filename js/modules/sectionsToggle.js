@@ -5,7 +5,7 @@ const contact = document.getElementById('contact');
 
 // Show books' list
 
-export const showList = () => {
+const showList = () => {
   allBooks.classList.remove('hidden');
   form.classList.add('hidden');
   contact.classList.add('hidden');
@@ -14,7 +14,7 @@ export const showList = () => {
 
 // Show add section
 
-export const showAddSection = () => {
+const showAddSection = () => {
   allBooks.classList.add('hidden');
   form.classList.remove('hidden');
   contact.classList.add('hidden');
@@ -24,9 +24,11 @@ export const showAddSection = () => {
 
 // Show Contact
 
-export const showContact = () => {
+const showContact = () => {
   allBooks.classList.add('hidden');
   form.classList.add('hidden');
   contact.classList.remove('hidden');
   contact.classList.add('flex');
 };
+
+export {showList, showAddSection, showContact}

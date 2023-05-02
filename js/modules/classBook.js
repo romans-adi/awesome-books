@@ -9,6 +9,10 @@ class Book {
 
   displayAllBooks() {
     allBooks.innerHTML = '';
+    if (bookList.length === 0) {
+      allBooks.innerHTML = 'You have no books in your list';
+      allBooks.style.padding = '10px';
+    }
     bookList.forEach((book) => {
       const bookListItem = document.createElement('li');
       bookListItem.innerHTML = `"${book.bookTitle}" by ${book.bookAuthor}`;

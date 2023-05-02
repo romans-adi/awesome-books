@@ -1,5 +1,4 @@
 import Book from './modules/classBook.js';
-import emptyListWarning from './modules/emptyListWarning.js';
 import { showAddSection, showContact, showList } from './modules/sectionsToggle.js';
 import checkInput from './modules/validation.js';
 import displayCurrentDateTime from './modules/displayTime.js';
@@ -11,7 +10,6 @@ const navContact = document.getElementById('nav-contact');
 const form = document.getElementById('form');
 
 newBook.displayAllBooks();
-emptyListWarning();
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
