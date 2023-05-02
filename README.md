@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 <a name="about-project">Hello Microverse</a>
+# 📖 <a name="about-project">Awesome Books: ES6</a>
 
 Simple mid-fidelity single-page application (SPA) that allows user to add and/or remove books to/from list. Only one class with defined methods used. All data stored in local storage.
 
@@ -40,13 +40,13 @@ Simple mid-fidelity single-page application (SPA) that allows user to add and/or
 
 ### Key Features <a name="key-features"></a>
 
-  <ul>
+<ul>
   <li>Mid-fidelity</li>
   <li>ES6 new features and syntax</li>
-<li>Based on JavaScript classes and methods</li>
-<li>Data is preserved in the browser's memory by using local storage</li>
-<li>Modular JavaScript</li>
-  </ul>
+  <li>Based on JavaScript classes and methods</li>
+  <li>Data is preserved in the browser's memory by using local storage</li>
+  <li>Modular JavaScript</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,6 +163,6 @@ I would like to thank my coding school Microverse for sharing useful information
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
