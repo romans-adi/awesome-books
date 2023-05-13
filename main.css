@@ -1,0 +1,197 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* GENERAL */
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 0 1%;
+  border: 2px solid #000;
+  margin: 5px auto;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  padding: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5px 0;
+}
+
+.nav-item {
+  display: flex;
+  cursor: pointer;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.nav-item:hover {
+  color: #757575;
+}
+
+.nav-menu hr {
+  width: 50%;
+  transform: rotate(90deg);
+}
+
+#current-date-time {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+
+/* MAIN */
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+#book_list {
+  border: 3px solid black;
+  width: 100%;
+}
+
+#book_list li {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+#book_list li:nth-child(even) {
+  background-color: #cecece;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid #757575;
+  box-shadow: 0 0.5em 0.5em -0.4em #757575;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-inline: auto;
+}
+
+input {
+  border: 3px solid black;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.btn-add {
+  align-self: flex-end;
+}
+
+#messageField {
+  font-size: 1.25rem;
+}
+
+/* CONTACT */
+
+.contact {
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.contact h2 {
+  font-size: 30px;
+}
+
+.contact-list li::before {
+  content: '- ';
+}
+
+/* FOOTER */
+
+footer {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1%;
+  margin-bottom: 1%;
+  place-self: center;
+  font-size: 1.25rem;
+}
+
